@@ -1,5 +1,17 @@
 node_modules
 *~
+*.swp
+*.swo
 .idea
-chance.min.js
+dependencies
 test/lib
+coverage
+
+# Ignore gh-pages specific content
+public
+npm-debug.log
+.nyc_output/
+_docpress
+
+# Ignore package-lock.json because we are using Yarn
+package-lock.json
